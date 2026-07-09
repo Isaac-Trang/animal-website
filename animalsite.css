@@ -1,0 +1,188 @@
+.header {
+    background-color: #ffffff82;
+    font-family: Jetbrains Mono, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 7px solid #000000;
+}
+
+.animal-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.animal-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.under {
+    font-family: Jetbrains Mono, sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid #000000;
+    background-color: #ffffff5b;
+}
+.description {
+    font-family: Jetbrains Mono, sans-serif;
+    text-align: center
+    ;
+    margin: 20px;
+    font-size: 25px;
+    text-indent: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+.link {
+    display: block;
+    text-align: center;
+    font-family: Jetbrains Mono, sans-serif;
+    margin: 20px;
+    font-size: 23px;
+    color: hsl(217, 100%, 56%);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.link:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.features {
+    font-family: Jetbrains Mono, sans-serif;
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+    list-style-position:inside;
+    padding-left: 0;
+}
+.habitat {
+    font-family: Jetbrains Mono, sans-serif;
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+    list-style-position:inside;
+    padding-left: 0;
+}
+.navigation {
+    background-color: #00000000;
+    font-family: Jetbrains Mono, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #000000;
+    color: #554cff;
+    transition: transform 0.3s ease;
+}
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 23px;
+    transition: transform 0.3s ease;
+    color: #554cff;
+}
+.nav-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #554cff;
+    transition: transform 0.3s ease;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #554cff;
+    transition: transform 0.3s ease;
+}
+.next-button {
+    display: inline-block;
+    text-align: center;
+    font-family: Jetbrains Mono, sans-serif;
+    margin: 20px auto;
+    font-size: 23px;
+    color: #554cff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border-radius: 100px;
+    background-color: #00000000;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
+li:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+
+li {
+        transition: transform 0.3s ease;
+    }
+.next-button:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.back-button {
+    display: inline-block;
+    text-align: center;
+    font-family: Jetbrains Mono, sans-serif;
+    margin: 20px auto;
+    font-size: 23px;
+    color: #5f66ec;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border-radius: 100px;
+    background-color: #00000000;
+    margin-left: 10px;
+}
+.back-button:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.pages:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.aniqtoohigh {
+    display: block;
+    margin: 20px auto;
+    width: 5%;
+    height: auto;
+    position:absolute;
+    opacity: 0.05;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.aniqtoohigh:hover {
+    transition: opacity 0.3s ease;
+    opacity: 0.5;
+}
+
+.bigtext {
+    font-size: 23px;
+    font-weight: bold;
+}
+.footer {
+    background-color: #00000000;
+    font-family: Jetbrains Mono, sans-serif;
+    text-align: center;
+    color: #ff0000;
+    font-size: 11px;
+    margin: 0;
+    position:fixed;
+    bottom: 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
